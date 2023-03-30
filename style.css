@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(255,255,255);
+  }
+  
+  
+  
+  /*DISEÑO DEL ENCABEZADO*/
+  
+  body {
+    margin: 0;
+  }
+  .header {
+    background-color: rgb(245,245,245);
+    padding: 6px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  /*LES DA COLOR A LOS CUADRADOS DE LA BARRA DE NAVEGACION*/
+  a:link,
+  a:visited {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: 2px solid rgb(247, 0, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover,
+  a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  /*MENU*/
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(160, 160, 160);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #8f8f8f;
+  }
+  
+  .active {
+    background-color: #ff1100;
+  }
+  
+  
+  
+  /*pie de pagina*/
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
