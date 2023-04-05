@@ -110,7 +110,19 @@ ul.sticky {
 
 #MOC.image-container img {
   max-width: 32%;
-  max-height: 32%;
+  max-height: 100%;
+}
+
+
+#GUCCI.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#GUCCI.image-container img {
+  max-width: 32%;
+  max-height: 100%;
 }
 
 
