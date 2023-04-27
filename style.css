@@ -126,4 +126,6 @@ ul.sticky {
 }
 
 
-
+#argentina {
+  grid: right;
+}
