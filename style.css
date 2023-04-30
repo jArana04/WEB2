@@ -68,7 +68,7 @@ li a:hover:not(.active) {
 
 /*pie de pagina*/
 .footer {
-  background-color: #f1f1f1;
+  background-color: #111111;
   padding: 10px;
   text-align: center;
 }
@@ -91,19 +91,20 @@ ul.sticky {
 
 
 
-.image-container {
-  display: flex;
+#AF1.image-container{
+  grid: center;
   justify-content: center;
   align-items: center;
 }
-.image-container img {
-  max-width: 100%;
+
+#AF1.image-container img {
+  max-width: 32%;
   max-height: 100%;
 }
 
 
 #MOC.image-container {
-  display: flex;
+  grid: center;
   justify-content: center;
   align-items: center;
 }
@@ -115,7 +116,7 @@ ul.sticky {
 
 
 #GUCCI.image-container {
-  display: flex;
+  grid: center;
   justify-content: center;
   align-items: center;
 }
@@ -138,3 +139,30 @@ ul.sticky {
 h1, h2, h3, h4, h5, h6 {
   font-size: 24px; /* tamaño de fuente base */
 }
+
+
+
+/*ESTO SIRVE PARA QUE EN PANTALLAS CHIQUITAS NO SE VEA EL STICKY DE LA BARRA*/
+
+@media screen and (max-width: 768px) {
+  ul.sticky {
+    position: static;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+
+ul.sticky {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+
+
+
+
