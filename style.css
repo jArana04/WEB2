@@ -33,17 +33,17 @@ a:active {
 
 /*MENU*/
 
-ul {
+#menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #ff0000;
 }
 
 li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: 1px solid #0400ff;
 }
 
 li:last-child {
@@ -52,7 +52,7 @@ li:last-child {
 
 li a {
   display: block;
-  color: rgb(160, 160, 160);
+  color: rgb(255, 0, 191);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -66,15 +66,77 @@ li a:hover:not(.active) {
   background-color: #ff1100;
 }
 
+
 /*pie de pagina*/
 .footer {
   background-color: #111111;
-  padding: 10px;
-  text-align: center;
+  padding: 25px ;
 }
 
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4{
+  font-size:20px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00c3ff;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font: size 18px;
+  text-decoration: none;
+  color: #bbbbbb;
+  display:block ;
+  margin-bottom:15px ;
+}
+
+.footer-links ul li a :hover{
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+.social-links a{
+  display: inline-block;
+  min-height: 40px;
+  background-color: rgba(255, 255, bl255ue, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.social-links a{
+  background-color: #00c3ff;
+}
+
+@media(max-width:991px){
+  .footer-row{
+    text-align: center;
+  }
+
+  .footer-links{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
 /*hace que si el usuario baja para seguir navegando por la pagina el menu lo siga para que no tenga que subir*/
-ul.sticky {
+#menu {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -85,7 +147,7 @@ ul.sticky {
 
 
 
-.p1 {
+.p {
   font-family: "Verdana", Helvetica, sans-serif;
 }
 
@@ -127,14 +189,12 @@ ul.sticky {
 }
 
 
-#argentina {
-  grid: right;
+#titulo {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
 }
 
-
-
-#logooo{ grid: center; 
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 24px; /* tamaño de fuente base */
@@ -145,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 /*ESTO SIRVE PARA QUE EN PANTALLAS CHIQUITAS NO SE VEA EL STICKY DE LA BARRA*/
 
 @media screen and (max-width: 768px) {
-  ul.sticky {
+  #menu {
     position: static;
     border: none;
     background-color: transparent;
@@ -154,10 +214,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-ul.sticky {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
+
+
 
 
 
