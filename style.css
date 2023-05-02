@@ -5,8 +5,9 @@ body {
 /*DISEÑO DEL ENCABEZADO*/
 
 body {
-  margin: 0;
+  margin: 0px;
 }
+
 .header {
   background-color: rgb(245, 245, 245);
   padding: 6px;
@@ -14,9 +15,9 @@ body {
 }
 
 /*LES DA COLOR A LOS CUADRADOS DE LA BARRA DE NAVEGACION*/
-a:link,
-a:visited {
-  background-color: rgb(245, 245, 245);
+#new:link,
+#new:visited {
+  background-color: rgb(255, 255, 255);
   color: black;
   border: 2px solid rgb(0, 0, 0);
   padding: 10px 20px;
@@ -25,9 +26,9 @@ a:visited {
   display: inline-block;
 }
 
-a:hover,
-a:active {
-  background-color: rgb(255, 255, 255);
+#new:hover,
+#new:active {
+  background-color: rgb(255, 0, 0);
   color: rgb(0, 0, 0);
 }
 
@@ -67,6 +68,14 @@ li a:hover:not(.active) {
 }
 
 
+/*CUERPO DE LA PAGINA*/
+#menu{
+  justify-items: center;
+  justify-content: center;
+}
+
+
+
 /*pie de pagina*/
 .footer {
   background-color: #111111;
@@ -83,7 +92,7 @@ li a:hover:not(.active) {
   padding: 0 15px;
 }
 
-.footer-links h4{
+.footer-links h7{
   font-size:20px;
   color: #ffffff;
   margin-bottom: 25px;
@@ -106,7 +115,7 @@ li a:hover:not(.active) {
   padding-left: 6px;
 }
 
-.social-links a{
+.social-link a{
   display: inline-block;
   min-height: 40px;
   background-color: rgba(255, 255, bl255ue, 0.2);
@@ -117,9 +126,7 @@ li a:hover:not(.active) {
   color: #ffffff;
 }
 
-.social-links a{
-  background-color: #00c3ff;
-}
+
 
 @media(max-width:991px){
   .footer-row{
@@ -198,6 +205,7 @@ li a:hover:not(.active) {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 24px; /* tamaño de fuente base */
+  margin: 16px;
 }
 
 
