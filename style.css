@@ -34,39 +34,6 @@ body {
 
 /*MENU*/
 
-#menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ff0000;
-}
-
-li {
-  float: left;
-  border-right: 1px solid #0400ff;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
-  color: rgb(255, 0, 191);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #8f8f8f;
-}
-
-.active {
-  background-color: #ff1100;
-}
-
 
 /*CUERPO DE LA PAGINA*/
 #menu{
@@ -143,14 +110,7 @@ li a:hover:not(.active) {
 
 
 /*hace que si el usuario baja para seguir navegando por la pagina el menu lo siga para que no tenga que subir*/
-#menu {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color:  rgb(245, 245, 245);
-  border: 2px solid  rgb(245, 245, 245);
-}
+
 
 
 
