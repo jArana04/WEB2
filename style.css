@@ -2,11 +2,14 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+
 /*DISEÑO DEL ENCABEZADO*/
+
 
 body {
   margin: 0px;
 }
+
 
 .header {
   background-color: rgb(245, 245, 245);
@@ -14,23 +17,13 @@ body {
   text-align: center;
 }
 
-/*LES DA COLOR A LOS CUADRADOS DE LA BARRA DE NAVEGACION*/
-#new:link,
-#new:visited {
-  background-color: rgb(255, 255, 255);
-  color: black;
-  border: 2px solid rgb(0, 0, 0);
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+
+#distancia{
+  margin-top: 50px;
+  padding-right: 32px; 
 }
 
-#new:hover,
-#new:active {
-  background-color: rgb(255, 0, 0);
-  color: rgb(0, 0, 0);
-}
+
 
 /*MENU*/
 
@@ -48,6 +41,13 @@ body {
   background-color: #111111;
   padding: 25px ;
 }
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .footer-row{
   display: flex;
@@ -94,7 +94,7 @@ body {
 }
 
 
-
+/*responsive el footer*/
 @media(max-width:991px){
   .footer-row{
     text-align: center;
@@ -108,14 +108,9 @@ body {
 
 
 
-
-/*hace que si el usuario baja para seguir navegando por la pagina el menu lo siga para que no tenga que subir*/
-
-
-
-
 .p {
   font-family: "Verdana", Helvetica, sans-serif;
+  margin-right: 0px;
 }
 
 
@@ -165,8 +160,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 24px; /* tamaño de fuente base */
-  margin: 16px;
+  padding-left: 0px;
+  padding-right: 16px;
 }
+
+
 
 
 
