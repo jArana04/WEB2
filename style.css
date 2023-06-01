@@ -32,6 +32,7 @@ body {
 #menu{
   justify-items: center;
   justify-content: center;
+  background-color: #111111;
 }
 
 
@@ -92,6 +93,29 @@ body {
   border-radius: 50%;
   color: #ffffff;
 }
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}   
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*
+.dropdown-content a:hover {
+}
+*/
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 
 
 /*responsive el footer*/
@@ -178,6 +202,40 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
   }
 }
+
+
+
+
+/* Create three equal columns that floats next to each other */
+#columna {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  background-color: #d4c388;
+  padding-left: 25px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  #columna {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #movie {
+    max-width: 100%;
+  }
+}
+
+
 
 
 
