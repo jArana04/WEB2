@@ -206,12 +206,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* Create three equal columns that floats next to each other */
+/* creador de columnas una al lado de la otra y el color del fondo */
 #columna {
   float: left;
   width: 50%;
   padding: 0px;
-  background-color: #d4c388;
+  background-color: #e9e9e9;
   padding-left: 25px;
 }
 
@@ -235,6 +235,41 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+#imgpag2 img {
+  display: inline-block;
+  margin-right: 1px;
+  width: 430px;
+  height: 350px;
+  margin-left: 15px;
+}
+
+#imgpag22 img {
+  display: inline-block;
+  margin-right: 1px;
+  width: 430px;
+  height: 550px;
+  margin-left: 15px;
+}
+
+#parrafopag2 {
+  margin-left: 15px;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+/* Media queries para hacer responsive todo lo nuevo agregado */
+
+@media screen and (max-width: 768px) {
+  #imgpag2 img,
+  #imgpag22 img {
+    width: 100%; 
+    height: auto; 
+    margin-left: 0; 
+    margin-right: 0; 
+  }
+}
 
 
 
