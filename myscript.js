@@ -44,3 +44,12 @@
 //console.log(materials.map(material => material.length));
 // Expected output: Array [8, 6, 7, 9]
 
+//15/6/23
+//el "do while" ejecuta aunque no se cumpla la condicion dada
+// i++ (quiero que vaya en 1 en 1)
+//1++2(quiero que sume de dos en dos)
+// .map recorre todo el ARRAY, MAP recibe una funcion como parametro
+//no aplicad for a nuestras paginas
+//hacer una cuenta atras y calcular segun el precio en dolar blue convertirlo a peso argentino
+
+
