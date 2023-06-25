@@ -256,13 +256,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#cuenta {
+#cuenta  {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: #9e9e9e;
+  margin-top: 20px;
 }
 .countdown{
   display: flex;
@@ -301,7 +302,7 @@ span{
   font-size: 1.5rem;
   font-weight: 400;
 }
-.final-sms{
+.final{
   position: absolute;
   left: 0;
   right: 0;
@@ -313,7 +314,7 @@ span{
   transition: ease-in-out 0.5s;
   background-color: #ffffff;
 }
-.final-sms h2{
+.final h2{
   text-align: center;
   font-size: 100px;
   color: #fff;

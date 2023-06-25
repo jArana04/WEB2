@@ -56,7 +56,7 @@ const diaa = document.getElementById('dia');
 const horaa =document.getElementById('hora');
 const minutoo= document.getElementById('minuto');
 const segundoos= document.getElementById('segundos');
-const finalMessagee= document.querySelector('.final-sms');
+const finalMessagee= document.querySelector('.final');
 
 
 const countdownDate= new Date('7 25, 2023 10:28:00').getTime();
@@ -78,3 +78,10 @@ let interval= setInterval(function(){
         clearInterval(interval);
     }
 }, 1000);
+
+
+
+
+
+
+
