@@ -3,9 +3,6 @@ body {
 }
 
 
-/*DISEÑO DEL ENCABEZADO*/
-
-
 body {
   margin: 0px;
 }
@@ -24,11 +21,6 @@ body {
 }
 
 
-
-/*MENU*/
-
-
-/*CUERPO DE LA PAGINA*/
 #menu{
   justify-items: center;
   justify-content: center;
@@ -36,8 +28,6 @@ body {
 }
 
 
-
-/*pie de pagina*/
 .footer {
   background-color: #111111;
   padding: 25px ;
@@ -108,17 +98,13 @@ body {
   display: block;
   text-align: left;
 }
-/*
-.dropdown-content a:hover {
-}
-*/
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
 
 
-/*responsive el footer*/
 @media(max-width:991px){
   .footer-row{
     text-align: center;
@@ -183,7 +169,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 24px; /* tamaño de fuente base */
+  font-size: 24px; 
   padding-left: 0px;
   padding-right: 16px;
 }
@@ -192,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/*ESTO SIRVE PARA QUE EN PANTALLAS CHIQUITAS NO SE VEA EL STICKY DE LA BARRA*/
+
 
 @media screen and (max-width: 768px) {
   #menu {
@@ -206,7 +192,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* creador de columnas una al lado de la otra y el color del fondo */
 #columna {
   float: left;
   width: 50%;
@@ -215,14 +200,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 25px;
 }
 
-/* Clear floats after the columns */
+
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width:600px) {
   #columna {
     width: 100%;
@@ -259,7 +244,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 15px;
 }
 
-/* Media queries para hacer responsive todo lo nuevo agregado */
 
 @media screen and (max-width: 768px) {
   #imgpag2 img,
