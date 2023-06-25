@@ -256,12 +256,65 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-#contador{
-  width: 15%;
+#cuenta {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #d1d1d1;
+  background-color: #9e9e9e;
+}
+.countdown{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.countdown div{
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+#h1contador{
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  padding: 30px 10px;
+}
+#dia #hora #minuto #segundos {
+  display: grid;
+  place-items: center;
+  border: solid 1px #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+span{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.final-sms{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(-100%);
+  transition: ease-in-out 0.5s;
+  background-color: #ffffff;
+}
+.final-sms h2{
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
 }
