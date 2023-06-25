@@ -91,12 +91,12 @@ const productos=[
         img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f8dfa191-60b3-44c1-b730-b25e0a908c35/calzado-air-force-1-07-flyease-vpmlK3.png"
     },
     {
-        nombre: "Yeezy", precio: 850,
-        img: "https://cdn.shopify.com/s/files/1/0548/7362/0655/products/snakerstoreAdidas_Yeezy_700_V2_Tephra-FU7914-0.png?v=1673889642"   
+        nombre: "Forum Bad Bunny", precio: 850,
+        img: "https://media.sivasdescalzo.com/media/catalog/product/H/Q/HQ2153_sivasdescalzo-adidas-BAD_BUNNY_FORUM-1669729714-1.jpg?quality=70&auto=webp&fit=bounds&width=420"   
     },
     {
         nombre: "Dunk Low", precio: 110,
-        img: "https://media.gq.com.mx/photos/6234b98c1982a4c011ad4c10/master/w_3000,h_1688,c_limit/nike-dunk-low-panda-negros-para-hombre-laterales.jpeg"
+        img: "https://nikearprod.vtexassets.com/arquivos/ids/700122-800-800?v=638229717021670000&width=800&height=800&aspect=true"
     }
 
 
@@ -106,14 +106,23 @@ let carrito=[];
 
 productos.forEach((zapas)=> {
     let content= document.createElement("div");
+    content.className="card";
     content.innerHTML= `
         <img src="${zapas.img}">
         <h3>${zapas.nombre}</h3>
-        <p>${zapas.precio} $</p>
+        <p class="precioo">${zapas.precio} $</p>
 
-     `;
+    `;
+     
+    cosas.append(content);
+    
+    let agregar= document.createElement("button");
+    agregar.innerText= "comprar";
+    agregar.className= "comprar";
+    content.append(agregar);
 
-     cosas.append(content)
+
+
 
 
 })
