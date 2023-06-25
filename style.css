@@ -363,3 +363,59 @@ span{
 .card button:hover{
   opacity: 0.7;
 }
+
+.modal-container {
+  align-items: center;
+  display: flex;
+  color: #fff;
+  background-color: #000000;
+  flex-direction: column;
+  margin: 0 10%;
+  width: 80%;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  max-height: 88vh;
+  scrollbar-color: none;
+
+
+}
+
+.modal-header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  color: #fff;
+  width: 100%;
+}
+
+.modal-header-title{
+  justify-self: start;
+}
+
+.modal-header-button{
+  cursor: pointer;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-content{
+  padding-top: 20px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.modal-container > .modal-content{
+  margin: 10px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  width: 70px;
+
+}

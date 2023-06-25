@@ -79,53 +79,7 @@ let interval= setInterval(function(){
     }
 }, 1000);
 
-const cosas= document.getElementById("carrito")
-const productos=[
-    {
-        nombre: "Jordan 1", precio: 150, 
-        img: "https://nikearprod.vtexassets.com/arquivos/ids/700161-800-800?v=638229717864100000&width=800&height=800&aspect=true"
 
-    },
-    {
-        nombre: "Air Force", precio: 100, 
-        img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f8dfa191-60b3-44c1-b730-b25e0a908c35/calzado-air-force-1-07-flyease-vpmlK3.png"
-    },
-    {
-        nombre: "Forum Bad Bunny", precio: 850,
-        img: "https://media.sivasdescalzo.com/media/catalog/product/H/Q/HQ2153_sivasdescalzo-adidas-BAD_BUNNY_FORUM-1669729714-1.jpg?quality=70&auto=webp&fit=bounds&width=420"   
-    },
-    {
-        nombre: "Dunk Low", precio: 110,
-        img: "https://nikearprod.vtexassets.com/arquivos/ids/700122-800-800?v=638229717021670000&width=800&height=800&aspect=true"
-    }
-
-
-];
-
-let carrito=[];
-
-productos.forEach((zapas)=> {
-    let content= document.createElement("div");
-    content.className="card";
-    content.innerHTML= `
-        <img src="${zapas.img}">
-        <h3>${zapas.nombre}</h3>
-        <p class="precioo">${zapas.precio} $</p>
-
-    `;
-     
-    cosas.append(content);
-    
-    let agregar= document.createElement("button");
-    agregar.innerText= "comprar";
-    agregar.className= "comprar";
-    content.append(agregar);
-
-
-
-
-
-})
 
 
 
