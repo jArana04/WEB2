@@ -80,6 +80,36 @@ let interval= setInterval(function(){
 }, 1000);
 
 
+const productos=[
+    {
+    nomrbe: "jordan1", precio: 150, Img: 
+    "https://www.google.com/search?rlz=1C1CHZN_esAR995AR995&q=jordan+1&tbm=isch&sa=X&ved=2ahUKEwizwpHtxd3_AhXLu5UCHQkDB3EQ0pQJegQIDxAB&biw=1366&bih=649&dpr=1#imgrc=LaiH4MQ-saze2M"
+
+    },
+    {
+        nombre: "Air Force", precio: 100, 
+        img: "https://www.google.com/search?q=air+force+1&tbm=isch&ved=2ahUKEwip2qrvxd3_AhWus5UCHdhiDwYQ2-cCegQIABAA&oq=air+&gs_lcp=CgNpbWcQARgAMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgcIABCKBRBDMgoIABCKBRCxAxBDUIUIWMwLYIYVaABwAHgAgAGAA4gBzgmSAQcxLjEuMS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=aL2XZKmGOq7n1sQP2MW9MA&bih=649&biw=1366&rlz=1C1CHZN_esAR995AR995#imgrc=J0UrGwdwyFbCeM"
+    },
+    {
+        nombre: "Yeezy", precio: 850,
+        img: "https://www.google.com/search?q=yeezy+700&tbm=isch&ved=2ahUKEwjQ9sytxt3_AhUKvJUCHQfDAAIQ2-cCegQIABAA&oq=yee&gs_lcp=CgNpbWcQARgCMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMg0IABCKBRCxAxCDARBDMgoIABCKBRCxAxBDMgcIABCKBRBDMgcIABCKBRBDMg0IABCKBRCxAxCDARBDMgoIABCKBRCxAxBDMgcIABCKBRBDOggIABCABBCxAzoFCAAQgAQ6BAgAEANQkw9YzBJgriRoAHAAeACAAYsDiAHzBpIBBzEuMS4xLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=672XZJDVIIr41sQPh4aDEA&bih=649&biw=1366&rlz=1C1CHZN_esAR995AR995#imgrc=uzNMV-nCpx-4uM"   
+    },
+    {
+        nombre: "Dunk Low", precio: 110,
+        img: "https://www.google.com/search?q=dunk+low&tbm=isch&ved=2ahUKEwiHi_7Pxt3_AhWSkZUCHScIB9sQ2-cCegQIABAA&oq=dunk+low&gs_lcp=CgNpbWcQAzINCAAQigUQsQMQgwEQQzINCAAQigUQsQMQgwEQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgsIABCABBCxAxCDAToKCAAQigUQsQMQQzoICAAQgAQQsQNQgwlYmhdgvBtoAHAAeACAAckDiAHaEZIBCTIuMi4xLjIuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=M76XZMelJ5Kj1sQPp5Cc2A0&bih=649&biw=1366&rlz=1C1CHZN_esAR995AR995#imgrc=Rv6tAYu3DC5tZM"
+    }
+
+
+];
+
+let carrito=[];
+
+productos.forEach((zapas)=> {
+    
+
+})
+
+
 
 
 
