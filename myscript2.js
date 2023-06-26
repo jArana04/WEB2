@@ -21,19 +21,19 @@ const productos=[
         img: "https://nikearprod.vtexassets.com/arquivos/ids/700122-800-800?v=638229717021670000&width=800&height=800&aspect=true"
     },
     {
-        nombre: "Vans Potato", precio: 350,
+        nombre: "Vans Potato", precio: 400,
         img: "https://cdn.shopify.com/s/files/1/0630/8082/5070/products/vans-vault-x-imran-potato-ua-knu-skool-vr3-lx-schwarz-weiss-244053.jpg?v=1665683026&width=1445"   
     },
     {
-        nombre: "Jordan3 PINE GREEN", precio: 350,
+        nombre: "Jordan3 PINE GREEN", precio: 180,
         img: "https://libur.com.co/cdn/shop/products/IMG_6324.jpg?v=1669333432"   
     },
     {
-        nombre: "Adidas Ozweego", precio: 350,
+        nombre: "Adidas Ozweego", precio: 110,
         img: "https://assets.adidas.com/images/w_600,f_auto,q_auto/86dbbccdb3db4f5f846eaa7600ee8b42_9366/Zapatillas_OZWEEGO_Negro_EE6999_01_standard.jpg"   
     },
     {
-        nombre: "Adidas Adilette", precio: 350,
+        nombre: "Adidas Adilette", precio: 100,
         img: "https://www.highsnobiety.com/static-assets/thumbor/-BdiNCRRcCbW2Sbs4sodJS_gvGQ=/1600x1068/www.highsnobiety.com/static-assets/wp-content/uploads/2022/05/02222019/adidas-adilette-22-slide-sandal-colorways-5-e1656071849575.jpg"   
     },
 
