@@ -224,17 +224,17 @@ h1, h2, h3, h4, h5, h6 {
 #imgpag2 img {
   display: inline-block;
   margin-right: 1px;
-  width: 430px;
+  width: 410px;
   height: 350px;
-  margin-left: 15px;
+  margin-left: 1px;
 }
 
 #imgpag22 img {
   display: inline-block;
   margin-right: 1px;
-  width: 430px;
+  width: 410px;
   height: 550px;
-  margin-left: 15px;
+  margin-left: 1px;
 }
 
 #parrafopag2 {
