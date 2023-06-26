@@ -377,9 +377,6 @@ span{
   z-index: 9;
   top: 12vh;
   max-height: 88vh;
-  scrollbar-color: none;
-
-
 }
 
 .modal-header{
